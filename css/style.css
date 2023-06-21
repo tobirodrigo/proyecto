@@ -3,7 +3,11 @@
 /* Carrousel */
 .slide img {
     height: 70vh;
-    width: 10vh;
+    width: 100%;
+}
+
+.buenohola img{
+    width: 100%;
 }
 
 .row-1{
@@ -123,9 +127,11 @@ h1 {
     opacity: 1;
 }
 
-@media screen and (max-width: 360px) {
-    
-  
+@media screen and (max-width: 576px) {
+    .slide img {
+        height: 36vh;
+        width: 700px;
+    }
 }
 
 
