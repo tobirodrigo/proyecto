@@ -47,9 +47,17 @@ h1 {
 
 #paco-amoroso {
     font-family: 'Poppins', sans-serif;
-    display: flex;
     align-items: center;
     min-height: 100vh;
+}
+
+.indumentaria2 {
+    height: 266px;
+    width: 266px;
+}
+
+.row {
+    justify-content: space-between;
 }
 
 .product-box .icons {
@@ -113,6 +121,11 @@ h1 {
     transform: rotateY(-3%);
     top: 3%;
     opacity: 1;
+}
+
+@media screen and (max-width: 360px) {
+    
+  
 }
 
 
